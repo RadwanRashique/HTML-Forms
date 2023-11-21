@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <fieldset>
+
+        <legend>Personal Information</legend>
+        <labe for="name" >Name</labe>
+        <input id="name" type="text" name="name"  />
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <br>
+        <label for="phone">Phone</label>
+        <input type="tel"  id="phone" name="phone"/>
+        <br>
+        <label for="Dob">Date of Birth</label>
+        <input id="Dob" name="Date of Birth" type="date" />
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <input id="male" name="gender"  type="radio"  />
+        <label for="male">Male</label>
+        <input id="female" type="radio"  name="gender" checked /> 
+        <label for="female">Female</label>
+        <br>
+
+        <label for="country">Country</label>
+        <br>
+
+       <select id="country" name="country">
+        <option value="India">India</option>
+        <option value="Us">Us</option>
+        <option value="Uae">Uae</option>
+       </select>
+       <br>
+    </fieldset>
+<fieldset>
+    <legend>Address</legend>
+    <label for="street">Street</label>
+    <input id="street" name="street" type="text" />
+    <br>
+    <label for="city">City</label>
+    <input  id="city" name="city" type="text"/>
+    <br>
+    <label for="zcode">Zip Code</label>
+    <input id="zcode" name="zcode" type="text"/>
+    <br>
+
+
+</fieldset>
+
+<fieldset>
+    <legend>Other Informations</legend>
+    <label for="comments">Comments</label>
+    <br>
+    <textarea id="comments" rows="20" cols="30"></textarea>
+    <lable for="terms">I agree to the terms of services</lable>
+    <input id="terms" name="terms" type="checkbox">
+</fieldset>
+<br>
+<input type="submit" value="submit" />
+       
+   
+</body>
+</html>

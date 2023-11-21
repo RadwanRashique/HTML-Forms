@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JobApplication</h1>
+    <br>
+    <br>
+    <lable  for="name">Name</lable>
+    <input name="name" id="name"  type="text" />
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <input  name="email" id="email" type="email"/>
+    <br>
+    <br>
+    <label for="phone">Phone</label>
+    <input name="phone" id="phone" type="tel" />
+    <br>
+    <br>
+    <label for="resume">Resume:</label>
+    <input name="resume" id="resume" type="file"/>
+    <br>
+    <br>
+    <label for="exp">Experience(years):</label>
+    <input  name="exp" id="exp" type="number" min="0" max="50"/>
+    <br>
+    <br>
+   <fieldset>
+    <legend>
+        Skills:
+    </legend>
+    <input type="checkbox" id="html" name="html" />
+    <lable for="html">HTMl</lable>
+    <br>
+    <input id="css"  type="checkbox" name="css"/>
+    <label for="html">Css</label>
+    <br>
+    <input id="js" type="checkbox" name="js"/>
+    <label for="js">Javascript</label>
+    <br>
+
+   </fieldset>
+      
+   
+
+    <label for="edu">Highest Education :</label>
+    <br>
+    <select id="edu">
+        <option value="High school">High school</option>
+        <option value="+2">+2</option>
+        <option value="Degree">Degree</option>
+        <option value="Other">Other</option>
+    </select>
+    <br>
+    <label>Avilability:</label>
+    <br>
+ 
+    <input name="full-time" type="radio" id="full-time" checked/>
+    <label for="full-time">Full-time</label>
+    <br>
+    <input  name="full-time" id="part-time" type="radio"  />
+    <label for="part-time">part-time</label>
+    <br>
+    <br>
+    <label for="text1">Additional commments:</label>
+    <br>
+    
+    <textarea  id="text1" rows="20" cols="30">
+
+    </textarea>
+    <br>
+    <input type="submit" value="Register"/>
+
+    
+</body>
+</html>
